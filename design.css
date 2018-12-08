@@ -1,0 +1,58 @@
+body{
+    background: url("jul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#countdown{
+    text-align: center;
+    font-size:55px;
+    color:red;
+    left:25%;
+    margin-top:-30px;
+    
+}
+
+body, html{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: fill;
+}
+
+
+canvas{
+    position:absolute;top:0;left:0;
+    height: 100%;
+    
+}
+
+#quote{
+    text-align:center;
+    font-size:50px;
+    color:rgb(0, 126, 0);
+    margin-top: -3px;
+    font-weight: bold;
+    
+}
+
+#info{
+    text-align:center;
+    font-size:50px;
+    color:rgb(0, 126, 0);
+    font-weight: bold;
+    
+}
+
+
+
+
+
+#song{
+    margin-top:250px;
+    position: fixed;
+}
+
+#audio{
+    background-color: blue;
+}
